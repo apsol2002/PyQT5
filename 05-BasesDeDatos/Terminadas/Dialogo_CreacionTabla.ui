@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogo_CreacionTabla</class>
+ <widget class="QDialog" name="Dialogo_CreacionTabla">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>319</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Creación tabla</string>
+  </property>
+  <widget class="QLabel" name="lbl_nombre_base_datos">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre de la base de datos:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_nombre_tabla">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre de la tabla</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nombre_base_datos">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nombre_tabla">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbx_columnas">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>411</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Columnas:</string>
+   </property>
+   <widget class="QLineEdit" name="txt_nombre_columna">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>46</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_nombre_columna">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre columna</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_tipo_dato">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>20</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tipo de dato</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbx_tipo_dato">
+    <property name="geometry">
+     <rect>
+      <x>166</x>
+      <y>45</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>INTEGER</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TEXT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>REAL</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_abgregar_columna">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
+      <y>45</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar columna</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btn_crear_base_datos">
+   <property name="geometry">
+    <rect>
+     <x>224</x>
+     <y>233</y>
+     <width>221</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Crear Base de Datos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_resultados">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>278</y>
+     <width>411</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana principal</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>551</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="viewMode">
+     <enum>QMdiArea::SubWindowView</enum>
+    </property>
+    <property name="tabsMovable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="win_primera_subventana">
+     <property name="windowTitle">
+      <string>Primera subventana</string>
+     </property>
+     <widget class="QLabel" name="lbl_primera_subventana">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Primera subventana</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="win_segunda_subventana">
+     <property name="windowTitle">
+      <string>Segunda subventana</string>
+     </property>
+     <widget class="QLabel" name="lbl_segunda_subventana">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Segunda subventana</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="mbr_principal">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>573</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mnu_ventana">
+    <property name="title">
+     <string>Ventanas</string>
+    </property>
+    <addaction name="mni_tabs"/>
+    <addaction name="mni_cascadas"/>
+    <addaction name="mni_cuadricula"/>
+    <addaction name="mni_subventana"/>
+   </widget>
+   <addaction name="mnu_ventana"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="mni_tabs">
+   <property name="text">
+    <string>Vista Pestañas</string>
+   </property>
+  </action>
+  <action name="mni_cascadas">
+   <property name="text">
+    <string>Vista Cascada</string>
+   </property>
+  </action>
+  <action name="mni_cuadricula">
+   <property name="text">
+    <string>Vista Cuadrícula</string>
+   </property>
+  </action>
+  <action name="mni_subventana">
+   <property name="text">
+    <string>Vista Subventana</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

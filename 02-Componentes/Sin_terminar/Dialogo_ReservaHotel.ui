@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogoReservaHotel</class>
+ <widget class="QDialog" name="DialogoReservaHotel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>518</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lbl_fecha">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fecha de ingreso:</string>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="cal_calendario">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>312</width>
+     <height>183</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_cantidad_dias">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cantidad de días:</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbx_cantidad_dias">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>218</y>
+     <width>311</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_tipo_habitacion">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tipo de habitación:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbx_tipo_habitacion">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>311</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Simple</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Doble</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Penhouse</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lbl_tiene_mascota">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>306</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tiene mascotas ?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chk_mascota">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>304</y>
+     <width>77</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_calcular_costo">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>350</y>
+     <width>151</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calcular costo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_mostrar_total">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>354</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_reservar_y_mostrar">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>151</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Realizar reserva</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_mostrar_reserva">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>397</y>
+     <width>341</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_descripcion">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Descripción:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

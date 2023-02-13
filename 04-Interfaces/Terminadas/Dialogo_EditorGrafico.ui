@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditorGrafico</class>
+ <widget class="QMainWindow" name="EditorGrafico">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>257</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editor Grafico</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_estado">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>421</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="mbr_principal">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>502</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mnu_dibujar">
+    <property name="title">
+     <string>Dibujar</string>
+    </property>
+    <widget class="QMenu" name="mnu_propiedades">
+     <property name="title">
+      <string>Propiedades</string>
+     </property>
+     <addaction name="mni_password"/>
+     <addaction name="mni_configurar_pagina"/>
+    </widget>
+    <addaction name="mni_dibujar_circulo"/>
+    <addaction name="mni_dibujar_rectangulo"/>
+    <addaction name="mni_dibujar_linea"/>
+    <addaction name="separator"/>
+    <addaction name="mnu_propiedades"/>
+   </widget>
+   <widget class="QMenu" name="mnu_editar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="mni_Copiar"/>
+    <addaction name="mni_cortar"/>
+    <addaction name="mni_pegar"/>
+   </widget>
+   <addaction name="mnu_dibujar"/>
+   <addaction name="mnu_editar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="mni_Copiar">
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="mni_cortar">
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="mni_pegar">
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="mni_dibujar_circulo">
+   <property name="text">
+    <string>Dibujar &amp;Circulo</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+C</string>
+   </property>
+  </action>
+  <action name="mni_dibujar_rectangulo">
+   <property name="text">
+    <string>Dibujar Rectangulo</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+R</string>
+   </property>
+  </action>
+  <action name="mni_dibujar_linea">
+   <property name="text">
+    <string>Dibujar Linea</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+L</string>
+   </property>
+  </action>
+  <action name="mni_password">
+   <property name="text">
+    <string>Establecer contraseña</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="mni_configurar_pagina">
+   <property name="text">
+    <string>Configurar página</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

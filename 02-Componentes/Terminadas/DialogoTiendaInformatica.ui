@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogoTiendaInformatica</class>
+ <widget class="QDialog" name="DialogoTiendaInformatica">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>190</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tienda de Informática</string>
+  </property>
+  <widget class="QLabel" name="lbl_teclado">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>35</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Precio Teclado</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_mouse">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>94</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Precio Mouse</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_teclado">
+   <property name="geometry">
+    <rect>
+     <x>122</x>
+     <y>30</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_mouse">
+   <property name="geometry">
+    <rect>
+     <x>122</x>
+     <y>90</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbx_teclado">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>45</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbx_mouse">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>90</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="keyboardTracking">
+    <bool>true</bool>
+   </property>
+   <property name="suffix">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_subtotal_1">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>30</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_subtotal_2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>90</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_subtotal_1">
+   <property name="geometry">
+    <rect>
+     <x>293</x>
+     <y>35</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Subtotal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_subtotal_2">
+   <property name="geometry">
+    <rect>
+     <x>293</x>
+     <y>94</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Subtotal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_muestra_total">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>150</y>
+     <width>341</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
